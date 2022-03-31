@@ -1,0 +1,34 @@
+.search{
+    /* display: none; */
+    position: absolute;
+    top:50px;
+    left:-200px;
+    width: 270px;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display: none;
+  
+}
+.buttonsearch{
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+    right: 2rem;
+    top: 38%;
+}
+.boxsearch:hover .search{
+    display: block;
+    transition: 1s;
+}
+.search input::placeholder{
+    font-size: 10pt;
+}
+.boxsearch{
+    position: relative;
+}
+.xemthemblog {
+    background: #e87c7b;
+    color: white;
+}

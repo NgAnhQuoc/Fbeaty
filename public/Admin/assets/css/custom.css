@@ -1,0 +1,565 @@
+img,table{
+    max-width: 100%;
+}
+.border-none {
+    border: 0 !important;
+}
+
+.objectcv {
+    object-fit: cover;
+}
+
+.img-common {
+    width: 150px;
+    height: 100px;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.mb-10 {
+    margin-bottom: 10rem;
+}
+
+.box-detail-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box-detail {
+    width: 46%;
+    padding: 3rem;
+    margin: 1rem;
+    box-shadow: 1px 2px 8px hsl(220deg 60% 50% / 0.3);
+}
+
+.remove-field {
+    font-size: 20pt;
+    width: 40px;
+    height: 40px;
+    line-height: 20px;
+}
+
+.note-btn {
+    color: #333 !important;
+}
+
+.align-center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.border-error {
+    border: 1px solid red !important;
+}
+
+.table-tuong td {
+    vertical-align: middle;
+}
+
+.text-right a {
+    margin-right: 1.1rem;
+}
+
+.box-tuong .box-detail {
+    padding: 1.5rem;
+    width: 100%;
+    margin: 0;
+}
+
+.float-center {
+    margin-left: 18%;
+    float: left;
+}
+
+.imgdichvu {
+    object-fit: cover;
+}
+
+
+/* start khách hàng */
+
+.boxinfouser {
+    width: 100%;
+    display: flex;
+}
+
+.boxinfouser i {
+    font-size: 20pt;
+}
+
+.right {
+    width: 90%;
+}
+
+
+/* end khách hàng */
+
+.boxnguoidung {
+    display: flex;
+    align-items: center;
+}
+
+.boxnguoidung h3 {
+    padding: 0;
+}
+
+.boxnguoidung p {
+    margin: 0;
+    margin-right: 5px;
+}
+
+.imglieutrinh {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgshow {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.editable-click,
+a.editable-click,
+a.editable-click:hover {
+    border: 0 !important;
+}
+
+.date {
+    max-width: 800px;
+    max-height: 800px;
+    position: relative;
+}
+
+.boxcontent {
+    position: relative;
+}
+
+.boxedit {
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    width: 40px;
+    height: 40px;
+    background-color: var(--main-color);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 3px;
+    color: white;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.boxedit:hover {
+    color: #ccc;
+}
+
+.inputfile {
+    display: none;
+}
+
+.boxlieutrinh {
+    position: relative;
+}
+
+.timeline-desk:hover .icon-delete {
+    visibility: visible;
+    transition: all 0.5s ease-in-out;
+}
+
+.timeline-icon {
+    cursor: pointer;
+}
+
+.icon-delete {
+    position: absolute;
+    left: 0;
+    top: -25px;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    background-color: var(--main-color);
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    visibility: hidden;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.updatelieutrinhct {
+    display: none;
+}
+
+.selected {
+    background-color: #d1d4d6;
+}
+
+.btn-cancel {
+    color: #333;
+    cursor: pointer !important;
+}
+
+.imgpreview {
+    margin: 1rem;
+    width: 300px;
+    height: 200px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.button-href {
+    border: none;
+    background: none;
+}
+
+.button-href:hover {
+    text-decoration: underline;
+}
+
+
+/* .fixed-bottom{
+    display: fixed;
+    bottom: 3%;
+    right: 0;
+} */
+
+.custom-table-body-2 {
+    display: block;
+    max-height: 380px;
+    overflow: auto;
+}
+.custom-table-2 thead, .custom-table-body-2 tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;/* even columns width , fix width of table too*/
+}
+
+.custom-table-2 thead th:first-child, .custom-table-body-2 tr td:first-child {
+    width: 5%;
+}
+
+.text-gray {
+    font-size: .9em;
+    font-weight: 400;
+    color: #999999;
+}
+
+.ip-color-placeholder-white::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+
+.ip-color-placeholder-white:-ms-input-placeholder { /* Internet Explorer 10-11 */
+color: white;
+}
+
+.ip-color-placeholder-white::-ms-input-placeholder { /* Microsoft Edge */
+color: white;
+}
+
+.lich-item {
+    background: #ffffff;
+    padding: 0em 1em;
+    border-bottom: 1.5px dotted gainsboro;
+    transition: .3s;
+}
+
+.time-item {
+    font-size: 1.1em;
+    font-weight: 500;
+    /* padding-left: 1em; */
+    width: 290px;
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+}
+
+.datlich-item {
+    height: 110px;
+    width: 170px;
+    margin: 0em 0em;
+    border-left: 1px solid gainsboro;
+    background: none;
+}
+
+.datlich-item .btn-none i {
+    color: rgb(0 128 63);
+}
+
+.datlich-item .namekh {
+    color: #343A41;
+    font-weight: 500;
+}
+
+.datlich-item.check-in .btn-none i {
+    color: white;
+}
+
+.datlich-item.check-in .namekh {
+    color: white;
+}
+
+.lich-item:hover {
+    color: #6c757d;
+    background-color: #f8f9fa;
+}
+
+.btn-select-lich {
+    opacity: 0;
+    transition: .3s;
+}
+
+.lich-item:hover .btn-select-lich{
+    opacity: 1;
+}
+
+.btn-custom-success {
+    background: #10c469!important;
+    border: none;
+    color: white;
+    padding: 0.5em 1.2em;
+    font-weight: 500;
+    font-size: .9em;
+}
+
+.btn-none {
+    border: none;
+    color: white;
+    background: none;
+}
+
+.datlich-item .header-item {
+    background: #10c469;
+    color: white;
+    padding: 0.2em 0.6em;
+    /*  */
+}
+
+.avthoadon{
+    width: 40px;
+    height:40px;
+    object-fit: cover;
+    border-radius: 40px;
+    margin: 0.5rem;
+}
+
+.limit-text-row-1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.datlich-item .footer-item {
+    background-color: rgb(151 242 160);
+    text-align: right;
+    padding: 0.2em 0.8em;
+    height: 31.5px;
+}
+
+.datlich-item .body-item {
+    background-color: rgb(151 242 160);
+    padding: 0.2em 0.4em;
+    font-weight: 400;
+    color: #343a40 !important;
+    font-size: 1em;
+}
+
+.cl-black {
+    color: #343a40;
+}
+
+.datlich-item.check-in .header-item {
+    background-color: rgb(9, 117, 63);
+}
+
+.datlich-item.check-in .body-item {
+    background-color: rgb(0 128 63);
+    color: #ffffff !important;
+}
+
+.datlich-item.check-in .body-item li a{
+    background-color: rgb(0 128 63);
+    color: #ffffff !important;
+}
+
+.datlich-item.check-in .footer-item {
+    background-color: rgb(0 128 63);
+}
+
+.datlich-item.check-in .footer-item .cirle-button i{
+    color: #dadada;
+}
+
+.lich-item.selected {
+	background-color: rgb(242 242 242);
+}
+
+.btn-cirle {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    padding: 0px;
+    line-height: 45px;
+}
+
+.child-button {
+    display: none;
+}
+
+.child-button.show {
+    display: block;
+}
+
+.btn-select-lich.hide {
+    display: none;
+}
+
+.btn-cirle i {
+    font-size: 1.5em;
+    line-height: 45px;
+}
+
+.lich-item.blocked {
+    background: rgb(9 117 63 / 47%);
+}
+
+.lich-item.blocked .time-item span {
+    color: white;
+}
+
+.btn-unblock-lich {
+    display: none;
+}
+
+.lich-item.blocked .time-item .btn-unblock-lich {
+    display: block;
+}
+
+.lich-item.blocked .btn-select-lich, .lich-item.blocked .child-button {
+    display: none;
+}
+
+.datlich-control {
+    margin-bottom: 1em;
+}
+
+.form-datlich-admin .card .head {
+    font-weight: 500;
+    margin-bottom: 0.6em;
+    color: #4ca3f7a8;
+    font-size: 1em;
+}
+
+.fa-select-search .select-search {
+    position: relative;
+}
+
+.fa-select-search .select-search .button-search {
+    font-size: .9rem;
+    font-weight: 400;
+    display: flex;
+    align-content: space-between;
+    border: 2px solid;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 0.2rem;
+    width: 100%;
+    background: white;
+    padding: 0.45rem 0.9rem;
+    border: 1px solid #ced4da;
+}
+
+.fa-select-search .select-search .box-select-search {
+    position: absolute;
+    z-index: 10;
+    background: #ffffff;
+    /* padding: 0.5em 0.5em; */
+    width: 100%;
+    margin-top: 0.5em;
+    border: 1px solid #ced4da;
+    border-radius: 0.2rem;
+    display: none;
+}
+
+.fa-select-search .select-search .box-select-search.show {
+    display: block;
+}
+
+.fa-select-search .select-search .box-select-search .fa-head-select {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding-right: 0.7em;
+    border: 1px solid #ced4da;
+    border-radius: 0.2rem;
+    margin: 0.5em 0.5em;
+}
+
+.fa-select-search .select-search .box-select-search .fa-head-select input {
+    background: none;
+    border: none;
+}
+
+.fa-select-search .select-search .box-select-search .fa-body-select {
+    max-height: 200px;
+    overflow: auto;
+}
+
+.fa-select-search .select-search .box-select-search .fa-body-select .body-select .option {
+    padding: .5em 0.7em;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.fa-select-search .select-search .box-select-search .fa-body-select .body-select .option:hover {
+    background: #4ca3f7;
+    color: white;
+}
+
+.fa-select-search .select-search .box-select-search.bottome {
+    bottom: 45px;
+    margin-bottom: 0.5em;
+}
+
+.gia-truocgiam {
+    text-decoration: line-through;
+    color: gainsboro;
+}
+
+.option-disabled {
+    color: #e2e2e2;
+}
+
+#select-gio option {
+    padding: .5em 0em;
+}
+
+.li-error {
+    display: none;
+}
+
+.option-chuyen-vien.disabled {
+    background: #c2c2c2;
+}
+
+.option-chuyen-vien.disabled:hover {
+    background: #c2c2c2 !important;
+    color: black !important;
+}

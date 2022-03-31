@@ -1,0 +1,39 @@
+.xemthemblog {
+    background: #e87c7b;
+    color: white;
+}
+
+.list-blog-dmct{
+  height: 1330px;
+overflow: hidden;
+}
+.list-blog-dmct6{
+  height: 630px;
+  overflow: hidden;
+}
+.list-blog-dmct3{
+  height: 880px;
+  overflow: hidden;
+}
+.list-blog-dmct7{
+  height: 1380px;
+  overflow: hidden;
+}
+.showAllList{
+  height: 100%;
+}
+
+.divnoidung{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.color-miniDay-white {
+    color: #dedede;
+}
+
+.color-mota-white {
+    color: #b0b0b0;
+}
